@@ -11,6 +11,8 @@ import java.util.TreeSet;
 import static com.impact.assessment.core.TestData.*;
 
 /**
+ * @author Nqobani
+ *
  * These simple tests were written using Junit v5.8.2
  * Tests execute in random order, the order of writing is redundant.
  * All tests are given a description annotation for a detailed explanation.
