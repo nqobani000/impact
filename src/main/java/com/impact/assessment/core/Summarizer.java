@@ -10,6 +10,8 @@ import java.util.TreeSet;
 
 /**
  * The service provided by this API doesn't require the class to keep a state.
+ * (I assumed the numbers won't always be sequential - so I designed the solution to cater for such.)
+ *
  * I used a treeSet collection because -:
  * - Elements are sorted using their natural ordering which reduces overhead and complexity when the input is not sorted.
  * - for this problem duplicate values are redundant, "1,1,1,2,3,4" will result in "1-4", so storing them
